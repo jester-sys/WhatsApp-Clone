@@ -31,7 +31,6 @@ import com.example.whatsapp.R
 import com.example.whatsapp.presentation.Update.Channel.model.ChannelModel
 
 @Composable
-
 fun ChannelDesign(modifier: Modifier = Modifier,channelModel: ChannelModel) {
     var isFollowing by remember {
         mutableStateOf(false)
